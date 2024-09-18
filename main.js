@@ -55,7 +55,7 @@ function playHouse() {
         house.text +
         `<br>` +
         `Opptions: <br>Look</br> around, Go <b>North</b>, Go <b>West</b>`;
-    currentLocation = "forest";
+    currentLocation = "house";
 }
 
 function playCat() {
