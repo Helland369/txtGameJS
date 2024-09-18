@@ -98,11 +98,11 @@ function startForest(command) {
 }
 
 function forestHouse(command) {
-    if (command.toLowerCase === "look") {
+    if (command.toLowerCase() === "look") {
         gameLog.innerHTML += "You meet a old lady in the house.<br>";
-    } else if (command.toLowerCase === "west") {
+    } else if (command.toLowerCase() === "west") {
         gameLog.innerHTML += "You are at the end of the forest.<br>";
-    } else if (command.toLowerCase == "north") {
+    } else if (command.toLowerCase() == "north") {
         gameLog.innerHTML += "You find a pond.<br>";
     } else {
         gameLog.innerHTML += "Invalid command!<br>";
